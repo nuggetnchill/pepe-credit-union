@@ -1,2 +1,2 @@
-near-socks-nft
+Pepe Credit Union
 ==================
