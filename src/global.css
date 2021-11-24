@@ -3,8 +3,8 @@
 }
 
 html {
-  --bg: #efefef;
-  --fg: #1e1e1e;
+  --bg: #102b2c;
+  --fg: #102b2c;
   --gray: #555;
   --light-gray: #ccc;
   --shadow: #e6e6e6;
@@ -26,16 +26,31 @@ body {
 
 main {
   margin: 0 auto;
-  max-width: 25em;
+  max-width:80vw;
+}
+
+.doing-business{
+  width: fit-content;
+  margin: 0 auto;
+}
+
+form{
+  padding-top: 1rem;
+}
+.connect-btn{
+  background: -webkit-linear-gradient(left, #37b146, #00d3f5);
+  background-size: 200% 200%;
+  animation: gradient-animation 4s ease infinite;
+  padding: 1rem 3rem;
 }
 
 h1 {
-  background-image: url(assets/logo-black.svg);
   background-position: center 1em;
   background-repeat: no-repeat;
   background-size: auto 1.5em;
   margin-top: 0;
-  padding: 3.5em 0 0.5em;
+  padding: 1rem 0;
+  padding-bottom: 0;
   text-align: center;
 }
 
@@ -113,13 +128,14 @@ button.link {
 
 fieldset {
   border: none;
-  padding: 2em 0;
+  /* padding: 2em 0; */
 }
 
 input {
   background-color: var(--shadow);
   border: none;
-  border-radius: 5px 0 0 5px;
+  border-radius: 5px;
+  margin-left: 1rem;
   caret-color: var(--primary);
   color: inherit;
   padding: 0.25em 1em;
@@ -165,16 +181,17 @@ aside footer *:last-child {
   color: var(--gray);
 }
 
-.mint-btn{
+.pepe-btn{
   margin: 1rem 0;
-  padding: 1rem 3rem;
-  background: -webkit-linear-gradient(left, #712196, #dd3434);
+  margin-left: 2rem;
+  padding: 0.5rem 2rem;
+  background: -webkit-linear-gradient(left, #37b146, #00d3f5);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(left, #712196 30%, #dd3434 60%);
+  background: -webkit-linear-gradient(left, #37b146 30%, #00d3f5 60%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -189,10 +206,10 @@ aside footer *:last-child {
 
 @media (prefers-color-scheme: dark) {
   html {
-    --bg: #1e1e1e;
+    --bg: #102b2c;
     --fg: #efefef;
     --gray: #aaa;
-    --shadow: #2a2a2a;
+    --shadow: #1b3836;
     --light-gray: #444;
   }
   input:focus {
