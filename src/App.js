@@ -46,7 +46,7 @@ export default function App() {
   if (!window.walletConnection.isSignedIn()) {
     return (
       <main>
-        <img id="hero-pepe" src={peepoWave}/>
+        <center><img id="hero-pepe" src={peepoWave}/></center>
         <h1>Hello there!</h1>
         <p style={{ textAlign: 'center'}}>Please confirm if you are a PEPE</p>
         <p style={{ textAlign: 'center', marginTop: '2.5em' }}>
@@ -248,7 +248,7 @@ export default function App() {
                const response = await window.contract.ft_balance_of({
                 account_id: fundingAddress.value
               })
-              await alert(`Your friend has ${response} PEPE Coin`)
+              await alert(`Your friend ${fundingAddress.value.slice(0,-8)} has ${response} PEPE Coin`)
             } catch (e) {
               alert(
                 'Something went wrong! ' +
