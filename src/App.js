@@ -277,6 +277,7 @@ export default function App() {
             </label>
               <input
                 autoComplete="off"
+                placeholder="Wallet Address"
                 id="fundingAddress"
                 style={{ width:'300px'}}
               />
