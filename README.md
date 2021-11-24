@@ -8,7 +8,7 @@ Get Pepe Coin now
 
 [Deploy Tx](https://explorer.testnet.near.org/transactions/FBs8PAwAeX9Q2cppDCJQMdC2yF1RYz32bdqBwhngtAuK)
 
-[NFT Contract](https://github.com/near-examples/ft-tutorial)
+[Contract](https://github.com/near-examples/ft-tutorial)
 
 ![](https://github.com/nuggetnchill/pepe-credit-union/blob/main/src/assets/pepe-bank.png?raw=true)
 
